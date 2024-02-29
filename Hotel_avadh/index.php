@@ -572,6 +572,18 @@ page_header();
                     border:1px solid #333;
                     padding:0.4rem;
                     border-radius:5px;
+                    position:relative;
+                }
+                .overlayitems{
+                    position: absolute;
+                    right: 5%;
+                    top: 10%;
+                    z-index: 1;
+                    opacity: .3;
+                }
+                .overlayitems img{
+                    width:100px;
+                    height:100px;
                 }
                 .portfolio-item-content h3{
                     text-align:center;
@@ -623,6 +635,9 @@ page_header();
                             <ul class="row portfolioz-itemz justify-content-center align-items-stretch" data-aos="fade-up">
                                 <li class="mix shop col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content" >
+                                        <div class="overlayitems">
+                                        <img loading="lazy" src="img/icon/16.png" alt="img" >
+                                        </div>
                                         <h3>Pantaloons</h3>
                                         <p>Pantaloons, a leading fashion destination, blends style and comfort with a diverse collection of apparel, catering to contemporary tastes effortlessly.</p>
                                         <!-- <ul>
@@ -632,7 +647,11 @@ page_header();
                                     </div>
                                 </li>
                                 <li class="mix shop col-xl-3 col-md-4 col-12 col-sm-6 pd">
+                                      
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/17.png" alt="img" >
+                                        </div>
                                         <h3>Meena bazaar</h3>
                                         <P>Meena Bazaar, a cultural haven, brings elegance and tradition to fashion, offering exquisite ethnic wear with timeless designs and craftsmanship.</P>
                                     </div>
@@ -640,6 +659,9 @@ page_header();
                                 </li>
                                 <li class="mix shop col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/15.png" alt="img" >
+                                        </div>
                                         <h3>Market 99 </h3>
                                         <P>
                                             Market 99, your go-to shopping destination, delivers affordable and quality lifestyle products, ensuring a delightful and budget-friendly retail experience for all.
@@ -649,6 +671,9 @@ page_header();
                                 </li>
                                 <li class="mix eye col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/14.png" alt="img" >
+                                        </div>
                                         <h3>Titan</h3>
                                         <p>Titan, synonymous with innovation and craftsmanship, presents timeless and sophisticated watches and accessories for those who cherish elegance and precision.</p>
                                     </div>
@@ -658,6 +683,9 @@ page_header();
                                 </li>
                                 <li class="mix eye col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/13.png" alt="img" >
+                                        </div>
                                         <h3>Hind eye </h3>
                                         <p>Hind Eye is your premier optical store, offering a curated selection of eyewear. Experience personalized service, quality frames, and precise prescriptions for optimal vision and style.</p>
                                     </div>
@@ -665,6 +693,9 @@ page_header();
                                 </li>
                                 <li class="mix ent col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/12.png" alt="img" >
+                                        </div>
                                         <h3>Fun unlimited gaming zone</h3>
                                         <p>Fun Unlimited Gaming Zone provides an immersive gaming experience , a variety of gaming options, and a vibrant atmosphere, making it a haven for gaming enthusiasts.</p>
                                     </div>
@@ -672,6 +703,9 @@ page_header();
                                 </li>
                                 <li class="mix ent col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/11.png" alt="img" >
+                                        </div>
                                         <h3>Dhishoom cinema</h3>
                                         <p>Dhishoom Cinema is your cinematic escape, presenting an immersive movie-watching experience. Enjoy the latest blockbusters in comfort and style at our state-of-the-art cinema hall.</p>
                                     </div>
@@ -679,6 +713,9 @@ page_header();
                                 </li>
                                 <li class="mix cos col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                    <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/10.png" alt="img" >
+                                        </div>
                                         <h3>Sugar </h3>
                                         <p>Sugar is a trendsetting cosmetic brand renowned for its vibrant and high-quality makeup products. Elevate your beauty routine with our diverse and innovative cosmetic collections.</p>
                                     </div>
@@ -686,6 +723,9 @@ page_header();
                                 </li>
                                 <li class="mix cos col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                    <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/9.png" alt="img" >
+                                        </div>
                                         <h3>Faces Canada </h3>
                                         <p>
                                             Faces Canada is a prominent beauty and cosmetics brand offering a diverse range of makeup and skincare products. Known for quality and innovation, it caters to the modern beauty needs.</p>
@@ -694,6 +734,9 @@ page_header();
                                 </li>
                                 <li class="mix cos col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/8.png" alt="img" >
+                                        </div>
                                         <h3>Dabur NewU</h3>
                                         <p>Discover a radiant you at NewU, your only destination for skincare, makeup, and fragrance. Elevate your beauty routine with quality products, ensuring a flawless transformation.</p>
                                     </div>
@@ -701,6 +744,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/7.png" alt="img" >
+                                        </div>
                                         <h3>Pizza Hut</h3>
                                         <p>Pizza Hut, a global pizza leader, delivers mouthwatering pizzas, pasta, and wings. Enjoy innovative flavors and quality ingredients for a delightful dining .</p>
                                     </div>
@@ -708,6 +754,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/6.png" alt="img" >
+                                        </div>
                                         <h3>Wok in </h3>
                                         <p>
                                         Wok In is a distinguished food chain brand offering a delectable fusion of Asian flavors. Indulge in our diverse menu, crafted with fresh ingredients for a delightful culinary experience.</p>
@@ -716,6 +765,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/5.png" alt="img" >
+                                        </div>
                                         <h3>Aaryan restaurant </h3>
                                         <p>Aaryan Restaurant captivates diners with a delightful fusion of flavors, offering a diverse menu of delectable dishes in a cozy ambiance, promising a memorable dining experience with impeccable service.</p>
                                     </div>
@@ -724,6 +776,9 @@ page_header();
                                 
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/4.png" alt="img" >
+                                        </div>
                                         <h3>Taafri  </h3>
                                         <p>Taafri offers a culinary journey with delectable dishes, creating a vibrant ambiance for food enthusiasts. Discover diverse flavors and an inviting atmosphere at Taafri, where every meal is a celebration.</p>
                                     </div>
@@ -731,6 +786,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/3.png" alt="img" >
+                                        </div>
                                         <h3>Creambell </h3>
                                         <p>Creambell, a beloved ice cream brand, offers a diverse range of premium flavors, ensuring a delightful frozen treat. Indulge in the creamy creations, crafted with the finest ingredients, for a pure taste sensation.</p>
                                     </div>
@@ -738,6 +796,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/1.png" alt="img" >
+                                        </div>
                                         <h3>House of candy </h3>
                                         <p>House of Candy is a sweet haven, presenting a myriad of delightful candies and confections, promising a sugary escape for candy enthusiasts in a vibrant and charming environment.</p>
                                     </div>
@@ -745,6 +806,9 @@ page_header();
                                 </li>
                                 <li class="mix food col-xl-3 col-md-4 col-12 col-sm-6 pd">
                                     <div class="portfolio-item-content">
+                                        <div class="overlayitems">
+                                         <img loading="lazy" src="img/icon/2.png" alt="img" >
+                                        </div>
                                         <h3>Havmor icecream</h3>
                                         <p>Havmor Ice Cream is a popular brand known for its wide array of delicious ice cream flavors. Renowned for quality and taste, Havmor has been a favorite choice for ice cream enthusiasts.</p>
                                     </div>
